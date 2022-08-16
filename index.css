@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{margin: 0;
+    padding: 0;
+}
+    
+body{background-color: rgba(165, 42, 42, 0);
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+    background-size: cover;
+    background-attachment: fixed;    
+    color: rgb(255, 0, 200);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {margin-top: 10px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #00f08c;
+    font-size: 60px;}
+
+h2 {text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #f0ec00;
+    font-size: 50px;
+    margin-top: 60px;}
+
+p   {text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 15px;
+        color: #00f08c;}
+
+img {max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+
+#cajapadre {
+    width: 1180px;  
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;}
+
+#caja1 {
+    float: left;
+    width: 280px; 
+    height: 450px;
+    margin: 5px;
+    background-color: #0080f077;
+    border-radius: 10px;
+}
+
+#caja2 {
+    float: left;
+    width: 280px; 
+    height: 450px;
+    margin: 5px;
+    background-color: #199ff380;
+    border-radius: 10px;
+}
+
+.intro {color:#19a3f3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;}
+
+button{color: #00f08c;
+background-color:  #0080f077;
+font-size: 25px;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+button:hover{
+  color: #f319aa;
+  background-color: #19a3f3;
+}
+
+
+input {background-color: #0080f077;
+color: #00f08c;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+border-color: #f319aa;
+width: 100px;}
+
+input:hover {
+  color:#f319aa;
+}
+
+#finalpeso {font-size: 25px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+
+.parrafocalcu {color: #f319aa;
+font-size: 25px;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+margin-top: 20px;
+margin-bottom: 20px;
+}
