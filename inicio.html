@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora interplanetaria</title>
+    <LINK REL=StyleSheet HREF="index.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="musicaespacio.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+    <h1>CPI: Calculadora de Peso Interplanetaria </h1>
+
+           
+
+<h2>LOS PLANETAS</h2>
+
+    <section id="cajapadre"> 
+       <div id="caja1">
+        <img src="mercurio.png">
+       <p>Mercurio, el planeta más pequeño de nuestro sistema solar y el más cercano al Sol, es solo un poco más grande que la Luna de la Tierra. Mercurio es el planeta más rápido, dando vueltas alrededor del Sol cada 88 días terrestres.</p>
+       </div>
+       <div id="caja2">
+       <img src="venus.png">
+        <p>Venus gira lentamente en dirección opuesta a la mayoría de los planetas. Una atmósfera espesa atrapa el calor en un efecto invernadero descontrolado, lo que lo convierte en el planeta más caliente de nuestro sistema solar.</p>
+       </div>
+       <div id="caja1">
+       <img src="tierra.png">
+        <p>La Tierra, nuestro planeta de origen, es el único lugar que conocemos hasta ahora que está habitado por seres vivos. También es el único planeta de nuestro sistema solar con agua líquida en la superficie.</p>
+       </div>
+       <div id="caja2">
+        <img src="marte.png">
+        <p>Marte es un mundo polvoriento, frío y desértico con una atmósfera muy delgada. Existe una fuerte evidencia de que Marte era, hace miles de millones de años, más húmedo y cálido, con una atmósfera más espesa.</p>
+       </div>
+       <div id="caja1"> 
+        <img src="jupiter.png">
+        <p>Júpiter tiene más del doble de masa que los otros planetas de nuestro sistema solar combinados. La Gran Mancha Roja del planeta gigante es una tormenta centenaria más grande que la Tierra.</p>
+       </div>
+       <div id="caja2"> 
+        <img src="saturno.png">
+        <p>Saturno es único en nuestro sistema solar. Adornado con un deslumbrante y complejo sistema de anillos de hielo. Los otros planetas gigantes tienen anillos, pero ninguno tan espectacular como el de Saturno.</p>
+       </div>
+       <div id="caja1">
+        <img src="urano.png">
+        <p>Urano, el séptimo planeta desde el Sol, gira en un ángulo de casi 90 grados desde el plano de su órbita. Esta inclinación única hace que Urano parezca girar de costado.</p>
+       </div>
+       <div id="caja2">
+        <img src="neptuno.png">
+        <p>Neptuno, el octavo y más distante planeta principal que orbita nuestro Sol, es oscuro, frío y azotado por vientos supersónicos. Fue el primer planeta localizado a través de cálculos matemáticos, en lugar de un telescopio.</p>
+       </div>
+    </section>
+<br>
+
+<p class="intro"> ¿Sabias que en cualquier lugar de nuestro sistema solar las cosas tienen distinto peso?</p>
+<p class="intro"> Esto es porque los planetas tienen distintos pesos y, por tanto, la fuerza de la gravedad es distinta en cada uno de ellos</p> 
+    <p class="intro">Con esta herramienta del futuro vas a poder saber tu peso, el del perro o el de la abuela</p>
+
+<br>
+
+<div id="cajaabajo"> 
+<p class="parrafocalcu">¿Cuál es tu peso en la tierra?</p> 
+
+<input type="text" id="entrada" aling="middle">
+
+
+<p class="parrafocalcu"> Seleccioná tu planeta:</p>
+<br> 
+<button value="3.7" id="mercurio">mercurio</button>
+<button value="8.87" id="venus">venus</button>
+<button value="3.7" id="marte">marte</button>
+<button value="24.8" id="jupiter">jupiter</button>
+<button value="10.44" id="saturno">saturno</button>
+<button value="8.7" id="urano">urano</button>
+<button value="11.15" id="neptuno">neptuno</button>
+<button value="1.62" id="luna">luna</button>
+<button onclick="restaurar()">Restaurar</button>
+
+
+<p class="parrafocalcu"> <span id="salida"></span></p>
+</div>
+<script src="index.js"></script>
+
+</body>
